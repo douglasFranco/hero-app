@@ -1,0 +1,12 @@
+.appName {
+  font-size: 2rem;
+}
+
+.logo {
+  width: 180px;
+  height: auto;
+}
+
+.navbar {
+  background-color: #000 !important;
+}

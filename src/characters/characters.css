@@ -1,0 +1,98 @@
+.card {
+  background-image: linear-gradient(to top, #000, #ccc);
+  box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.7);
+  cursor: pointer;
+  transition: transform .4s; 
+  width: 180px;   
+}
+
+.card:hover {
+  transform: scale(1.3) rotate(3deg);
+  z-index: 999;
+}
+
+.detailsImg {
+  width: 15%;
+  min-width: 200px;
+}
+
+.detailName {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  display: block;
+  font-size: 2rem;
+  width: 80%;
+}
+
+.detailName:focus {
+  outline: none;
+  border: solid 1px #fff;
+}
+
+.detailsDescription {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  display: block;  
+  font-size: 1.5rem;
+  min-height: 300px;
+  width: 80%; 
+}
+
+.detailsDescription:focus {
+  outline: none;
+  border: solid 1px #fff;
+}
+
+.form-control:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25) !important;
+  border-color: #dc3545 !important;
+}
+
+.jumbotron {
+  color: #fff;
+  background-image: linear-gradient(0, #000, #ccc);
+}
+
+.pagination {
+  width: 300px;
+  margin: 30px auto;
+}
+
+.page-item {
+  font-size: 1.2rem;
+}
+
+.page-item.active .page-link {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #dc3545 !important;
+}
+
+.page-link {
+  color: #000 !important;
+}
+
+.page-link:focus {
+  box-shadow: 0 0 0 0.2rem rgba(255, 0, 0, 0.25) !important;
+}
+
+.seriesList {
+  font-size: 1.2rem;
+}
+
+.seriesTitle {
+  background-image: linear-gradient(to right, #000 , #fff);
+  color: #fff;
+}
+
+@media screen and (max-width: 440px) {
+  .detailsImg {
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;   
+  }
+}
